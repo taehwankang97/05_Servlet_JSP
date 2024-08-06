@@ -63,11 +63,12 @@ public class ChickenServlet extends HttpServlet{
 	if(options != null) {
 		for(String opt : options) {
 			switch(opt) {
-			case "치킨무" : price += 500;
-			case "콜라" : price += 2000;
-			case "치즈볼" : price += 3000;
-			case "감자튀김" : price += 5000;
-			case "치킨 반마리 추가 " : price += 7000;
+			case "치킨무" : price += 500;break;
+			case "양념소스" : price += 1000;break;
+			case "콜라" : price += 2000;break;
+			case "치즈볼" : price += 3000;break;
+			case "감자튀김" : price += 5000;break;
+			case "치킨 반마리 추가 " : price += 7000;break;
 			}
 		}
 	}
