@@ -102,7 +102,7 @@ public class ChickenServlet extends HttpServlet{
 	if(options != null) {
 		sb.append("<li>선택한 옵션 :" );
 		// String.join() : String[] -> String 한 줄로 변환
-		sb.append(String.join("랑", options));
+		sb.append(String.join("\n", options));
 		// 치킨무 / 콜라 / 치즈볼 / 감자튀김 
 		
 		sb.append("</li>" );
