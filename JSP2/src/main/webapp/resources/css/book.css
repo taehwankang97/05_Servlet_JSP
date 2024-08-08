@@ -1,0 +1,26 @@
+*{
+  padding: auto;
+  margin: auto;
+  text-align: center;
+  
+}
+table{
+  margin-top: 50px;
+  border-collapse: collapse;
+
+}
+
+
+
+table td, table th{
+  padding: 5px;
+}
+
+.blank{
+  background-color: gray;
+}
+
+#btn{
+  display: flex;
+  margin-top: 30px ;
+}

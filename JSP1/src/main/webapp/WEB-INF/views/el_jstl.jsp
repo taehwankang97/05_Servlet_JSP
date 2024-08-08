@@ -1,3 +1,7 @@
+<%--prefix : 접두사(앞에 붙는 단어/말)
+  만약 prefix="c"    ->  <c:if>
+  만약 prefix="core" ->  <core:if> --%> 
+  
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -73,7 +77,6 @@ age : ${param.age}
     <h3>성인 입니다11111</h3>
 
   <% } %> --%>
-
 <c:if test="${param.age > 20}">
 <h3>성인 입니다</h3>
 </c:if>
