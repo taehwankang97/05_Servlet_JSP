@@ -10,7 +10,7 @@
   <%-- webapp 폴더를 기준으로 (/)으로 css파일 경로 작성--%>
   <link rel="stylesheet" href="/resources/css/book.css">
 </head>
-<body  style="background: linear-gradient(#e66465, #9198e5)";>
+<body  style="background: linear-gradient(#D1E9F6, #F0A8D0)";>
   <h1>책 목록 조회 </h1>
 
   <hr>
