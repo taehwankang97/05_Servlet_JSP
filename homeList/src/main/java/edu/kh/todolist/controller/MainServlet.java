@@ -15,7 +15,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 
 // "/main" 요청을 매핑하여 처리하는 서블릿
-@WebServlet("/")
+@WebServlet("/main")
 public class MainServlet extends HttpServlet{
 
 	/* 왜 "/main" 메인 페이지 요청을 처리하는 서블릿 만들었는가???
