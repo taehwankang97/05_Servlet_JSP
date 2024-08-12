@@ -15,7 +15,6 @@ import jakarta.servlet.http.HttpServletResponse;
 
 
 // "/main" 요청을 매핑하여 처리하는 서블릿
-// "/main" == locahost/ == 메인페이지
 @WebServlet("/main")
 public class MainServlet extends HttpServlet{
 
@@ -35,9 +34,11 @@ public class MainServlet extends HttpServlet{
 			// Service 객체 생성
 			TodoListService service = new TodoListServiceImpl();
 			
+			
 			// 전체 할 일 목록 + 완료된 Todo 개수가 담긴 Map을
 			// Service 호출해서 얻어오기
 			Map<String, Object> map = service.todoListFullView();
+			
 			
 			// Map에 저장된 값 풀어내기
 			List<Todo> todoList = (List<Todo>)map.get("todoList");

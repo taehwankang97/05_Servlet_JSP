@@ -11,14 +11,15 @@ import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
-public class Todo implements Serializable{
-					// 직  렬   화
-	
+public class Todo implements Serializable {
+							// 직렬화 
 	private String title;
 	private String detail;
 	private boolean complete;
 	private LocalDateTime regDate;
+	
+	
 }
